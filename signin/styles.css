@@ -1,0 +1,41 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER */
+.header-title {
+  padding: 20px;
+  margin: 5px 0 5px 0;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.header-title a {
+  text-decoration: none;
+  color: black;
+}
+/* HEADER */
+
+/* MAIN */
+.main-row {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-post {
+  text-align: center;
+}
+
+/* MAIN */
