@@ -5,26 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Окрема книга</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- HEADER -->
-    <header>
-      <div class="container">
-        <hr />
-        <h1>JS BAND STORE/Nikitin Ihor</h1>
-        <div>
-          <img src="./images/cart.svg" alt="cart" width="36" />
-          <button value="Sign-Out">Sign-Out</button>
-        </div>
-        <hr />
+    <header class="header">
+      <div class="header-row">
+        <h1 class="header-title">
+          <a href="#">JS BAND STORE</a>
+        </h1>
+        <ul class="header-menu">
+          <li>
+            <a href="#"><img src="./images/cart.svg" alt="cart" width="36" /></a>
+          </li>
+          <li>
+            <button value="Sign-Out">Sign-Out</button>
+          </li>
+          <li class="username-row">
+            <div class="user-logo"></div>
+            <a href="#">Username</a>
+          </li>
+        </ul>
       </div>
     </header>
     <!-- HEADER -->
 
     <!-- MAIN -->
-    <main>
-      <div class="container">
-        <div>
+    <main class="main">
+      <div class="main-rov">
+        <div class="book-description">
           <img
             src="./images/4045702223_w640_h640_kniga-javascript-dlya.webp"
             alt="Javascript for kids"
@@ -35,7 +50,7 @@
           <p><b>Book level:</b> Beginner</p>
           <p><b>Book tags:</b> Vore</p>
         </div>
-        <div>
+        <div class="book-order">
           <p>Price: 5$</p>
           <form action="/" method="POST">
             <input type="number" name="count" />
