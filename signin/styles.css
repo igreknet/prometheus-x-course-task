@@ -9,9 +9,14 @@ body * {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 /* HEADER */
 .header-title {
   padding: 10px;
@@ -27,8 +32,14 @@ body {
 /* HEADER */
 
 /* MAIN */
+
+.main {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+}
+
 .main-row {
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,4 +49,7 @@ body {
   text-align: center;
 }
 
+.main-container {
+  border: 2px solid black;
+}
 /* MAIN */
