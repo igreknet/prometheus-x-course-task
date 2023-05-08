@@ -65,3 +65,17 @@ li {
 }
 
 /* HEADER */
+
+/* MAIN */
+
+.main-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.book-order {
+  display: flex;
+  flex-direction: column;
+}
+
+/* MAIN */
