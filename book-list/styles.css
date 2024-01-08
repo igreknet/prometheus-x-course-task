@@ -6,11 +6,21 @@ body {
   max-height: 705px;
 }
 
-.card img {
+.card .card-img-top {
   max-height: 544px;
 }
 
 .card-title {
+  margin: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+
+.card-text {
   margin: 0;
   text-overflow: ellipsis;
   overflow: hidden;
